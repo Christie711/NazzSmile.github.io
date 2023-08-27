@@ -1,0 +1,180 @@
+.products__cat__page{
+    text-align: center;
+    min-height: 100vh;
+    min-width: fit-content;
+    padding-top: 9rem;
+}
+
+.Products__cat__title{
+    padding-bottom: 5rem;
+    color: #fcd496;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3rem;
+    user-select:none;
+}
+
+.products__cat__card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 1.35rem;
+    margin: 1.5rem;
+    width: 11.5rem;
+    overflow: hidden;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 35%);
+}
+
+
+.add__to__card{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.6rem;
+    margin-bottom: 0;
+    cursor: pointer;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.063rem;
+    padding: 0.6rem;
+    max-width: fit-content;
+    color: #fcd496;
+    border: 3px solid black;
+    border-radius: 1.25rem ;
+    transition: 0.4s ease;
+}
+
+.add__to__card:hover{
+    box-shadow: 0 5px 25px rgba(1 1 1 / 35%);
+    transform: scale(1.05);
+    color: black;
+    background-color: #fcd496;
+}
+
+.price{
+    display: inline-block;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    margin-top: 0.8rem;
+    width: fit-content;
+    user-select:none;
+}
+
+
+/* xs */
+@media (min-width: 475px) {
+    .Products__cat__title{
+        font-size:3.3rem ;
+    }
+
+    .products__cat__card{
+        width:13rem ;
+    }
+
+
+    .add__to__card{
+        font-size:1.2rem ;
+    }
+
+    .price{
+        font-size:1.4rem ;
+    }
+}
+
+/* sm */
+@media (min-width: 640px) {
+    .Products__cat__title{
+        font-size:3.5rem ;
+    }
+
+    .products__cat__card{
+        width:13.5rem ;
+    }
+
+    .add__to__card{
+        font-size:1.3rem ;
+    }
+
+    .price{
+        font-size:1.6rem ;
+    }
+}
+
+/* md */
+@media (min-width: 768px) {
+    .Products__cat__title{
+        font-size:3.7rem ;
+    }
+
+    .products__cat__card{
+        width:14rem ;
+    }
+
+    .add__to__card{
+        font-size:1.3rem ;
+    }
+
+    .price{
+        font-size:1.65rem ;
+    }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    .Products__cat__title{
+        font-size:3.75rem ;
+    }
+
+    .products__cat__card{
+        width:14rem ;
+    }
+
+
+    .add__to__card{
+        font-size:1.4rem ;
+    }
+
+    .price{
+        font-size:1.7rem ;
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) { 
+    .Products__cat__title{
+        font-size:3.8 ;
+    }
+
+    .products__cat__card{
+        width:14rem ;
+    }
+
+    .add__to__card{
+        font-size:1.4rem ;
+    }
+
+    .price{
+        font-size:1.7rem ;
+    }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+    .Products__cat__title{
+        font-size:3.83rem ;
+    }
+
+    .products__cat__card{
+        width:14.5rem ;
+    }
+
+
+    .add__to__card{
+        font-size:1.4rem ;
+    }
+
+    .price{
+        font-size:1.7rem ;
+    }
+}

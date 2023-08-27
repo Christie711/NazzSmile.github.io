@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./styles/modern-normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/components/header.css">
+    <link rel="stylesheet" href="./styles/components/main.css">
+    <link rel="stylesheet" href="./styles/components/products.css">
+    <link rel="stylesheet" href="./styles/utils.css">
+    <title>Nazz Smile</title>
+</head>
+<body>
+
+    <header>
+      <div class="container header">
+        <a href="#main-page" class="Logo">Nazz Smile</a>
+       <nav>
+        <ul class="header__menu">
+          <li><a href="#products" class="header__link">Products</a></li>
+          <li><a href="./signup" class="header__link">Sign Up</a></li>
+        </ul>
+       </nav>
+      </div>
+    </header>
+
+    <section class="main" id="main-page">
+      <div class="container main__container">
+        <h2 class="main__desc1">We Craft Smiles in Every Gift ッ</h2>
+        <h1 class="main__desc2">HandMade Gifts , Made From Kurdish Hands</h1>
+        <a href="#products" class="button main__btn">View Our Products</a>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/nazz.smile/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.tiktok.com/@nazzsmile" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="https://www.snapchat.com/add/nazzsmile?share_id=d-aVvlgAPcM&locale=en-GB" target="_blank"><i class="fa-brands fa-snapchat"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="Products container section" id="products">
+
+      <h3 class="Products__title">Products</h3>
+
+      <div class="Products__card">
+        <img loading="lazy" src="https://ik.imagekit.io/nvchf7urt/public/tr:w-250/Candles.jpg?updatedAt=1692886827247" alt="">
+        <a class="Products__cat" href="./candles">CANDLES</a>
+      </div>
+
+      <div class="Products__card">
+        <img loading="lazy" src="https://ik.imagekit.io/nvchf7urt/public/tr:w-250/Paintings.jpg?updatedAt=1692885742618" alt="">
+        <a class="Products__cat" href="./paintings">PAINTINGS</a>
+      </div>
+
+      <div class="break-point"><br></div>
+
+      <div class="Products__card">
+        <img loading="lazy" src="https://ik.imagekit.io/nvchf7urt/public/tr:w-250/Bracelets.jpg?updatedAt=1692885730678" alt="">
+        <a class="Products__cat" href="./braclets">BRACELETS</a>
+      </div>
+
+      <div class="Products__card">
+        <img loading="lazy" src="https://ik.imagekit.io/nvchf7urt/public/tr:w-250/Stones.jpg?updatedAt=1692885744162" alt="">
+        <a class="Products__cat" href="./stones">STONES</a>
+      </div>
+    
+    </section>
+   <script type="module" src="src/main.js"></script>
+</body>
+</html>
